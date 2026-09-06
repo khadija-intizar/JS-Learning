@@ -1,3 +1,4 @@
+// Datatypes
 "use strict"; // treat all JS code as newer version 
 // alert (3 + 3) // Gives error bcz we are using node js not browser
 // console.log("Hello"); console.log(34) // code readability should be high 
