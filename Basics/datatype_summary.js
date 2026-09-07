@@ -39,3 +39,39 @@ let myFunction = function() {
 myFunction()
 
 console.log(typeof id);
+
+// **************************** Stack and Heap Memory ********************************
+
+//stack (use in primitive or is k andar copy mily ga) & heap (use in non-primitive or is k andar reference)
+//Stack Example
+let myName = "Khadija Intizar"
+let mySisterName = myName
+mySisterName = "Ayesha Intizar"
+console.log(mySisterName);
+
+// heap example
+let user1 = {
+    name: "Ali",
+    email: "ali@gmail.com"
+}
+
+let user2 = user1
+user2.name = "Hira"
+console.log(user1.name);
+
+// Another Example 
+let myBikeColor = "Blue"
+let otherBikeColor = myBikeColor
+otherBikeColor = "black"
+console.log(myBikeColor);
+console.log(otherBikeColor);
+
+let obj1 = {
+    bikeNum: 486,
+    bikeName: "Kawasaki"
+}
+
+let obj2 = obj1
+obj2.bikeName = "CD70"
+
+console.log(obj2.bikeName);
