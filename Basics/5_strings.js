@@ -10,7 +10,7 @@ console.log(myName[0])
 /*
 we use some methods for example:
 length, toUpperCase, charAt, indexOf, substring, slice, trim, replace, trim, include, 
-split. Others on mdn 
+split, concat. Others on mdn 
 */
 console.log(myName.length);
 console.log(myName.__proto__);
@@ -43,5 +43,5 @@ console.log(myName.split('_'));  // it separate the string on the basis of somet
 
 let str1 = "I love nature"
 let str2 = " Because it is peaceful"
-// console.log(str1.concat(str2));
+console.log(str1.concat(str2));
 console.log(`${str1}, ${str2}`);
